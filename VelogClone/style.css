@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #212529;
+  background: rgb(248, 249, 250);
+}
+
+.topBar {
+  height: 4rem;
+}
+
+.topBardesign {
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: calc(100% - 2rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+.Title {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-weight: bold;
+  color: rgb(52, 58, 64);
+  font-size: 1.3125rem;
+}
+.Find {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
+.Findicon {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 0.75rem;
+}
+.Findicon svg {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+.navmenu {
+  display: flex;
+  position: relative;
+}
+
+.active {
+  color: rgb(52, 58, 64);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+svg {
+  stroke: currentColor;
+  fill: darkcyan;
+  stroke: width 0;
+  font-size: 1.5rem;
+  margin-right: 0.3rem;
+  height: 1em;
+  width: 1em;
+}
