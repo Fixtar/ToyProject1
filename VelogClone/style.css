@@ -30,6 +30,16 @@ body {
   color: rgb(52, 58, 64);
   font-size: 1.3125rem;
 }
+.Title a {
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+.Title .velog-logo {
+  height: 1.25rem;
+}
 .Find {
   display: flex;
   -webkit-box-align: center;
@@ -55,19 +65,63 @@ body {
   width: 1.125rem;
   height: 1.125rem;
 }
+.loginButton {
+  height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  word-break: keep-all;
+  background-color: rgb(52, 58, 64);
+  color: white;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.125s ease-in 0s;
+}
+
+.Body {
+  width: calc(100% -2rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navContainer {
+  margin-top: 1.5rem;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
 .navmenu {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
+.navbigtwo {
+  width: 10rem;
   display: flex;
   position: relative;
 }
-
-.active {
+.navbigtwo a {
+  font-size: 1rem;
+  width: 5rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.navbigtwo a.active {
   color: rgb(52, 58, 64);
-  font-size: 1.5em;
   font-weight: bold;
-  margin-right: 0.5rem;
 }
 
-svg {
+.navbigtwo svg {
   stroke: currentColor;
   fill: darkcyan;
   stroke: width 0;
@@ -75,4 +129,12 @@ svg {
   margin-right: 0.3rem;
   height: 1em;
   width: 1em;
+}
+
+.navbigtwoUnderline {
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  bottom: 0px;
+  background: rgb(52, 58, 64);
 }
